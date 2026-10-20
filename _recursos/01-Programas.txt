@@ -1,3 +1,17 @@
+----------------------------------------------------------------------
+----------------------Para Apuntes y contraseñas----------------------
+----------------------------------------------------------------------
+
+--> CherryTree Portable: https://portableapps.com/apps/office/cherrytree-portable
+	Para una versión local similar al Confluence en la que ir recogiendo mis apuntes
+
+--> Keepass Portable: https://keepass.info/download.html
+	Para guardar credenciales de acceso de manera segura 
+
+----------------------------------------------------------------------
+------------------------------CURSO-POO-------------------------------
+----------------------------------------------------------------------
+
 
 --> Logicly: https://logic.ly/download/
 	Programa para dibujar circuitos. Usarlo en modo trail 30 días.
