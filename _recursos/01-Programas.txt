@@ -1,0 +1,8 @@
+
+--> Logicly: https://logic.ly/download/
+	Programa para dibujar circuitos. Usarlo en modo trail 30 días.
+
+--> Git: https://git-scm.com/install/windows
+
+
+--> Visual Studio Code: https://code.visualstudio.com/
