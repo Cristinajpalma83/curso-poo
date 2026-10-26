@@ -1,0 +1,73 @@
+
+  211  cd ejercicio_linux/
+  212  ls
+  213  ls -la
+  214  git config --global --list
+  215  git config --global user.name "Pablo Lopez"
+  216  git config --global user.email "cursos.tic.plg@gmail.com"
+  217  git config --global --list
+  218  mkdir -p proyecto/documentos/temporales proyecto/documentos/aprobados proyecto/imagenes proyecto/ingenieria
+  219  ls -R
+  220  echo mkdir -p proyecto/documentos/temporales proyecto/documentos/aprobados proyecto/imagenes proyecto/ingenieria
+  221  echo mkdir -p proyecto/documentos/temporales proyecto/documentos/aprobados proyecto/imagenes proyecto/ingenieria > comando.txt
+  222  cat comando.txt 
+  223  mv comando.txt comando-mkdir.txt
+  224  echo mkdir -p proyecto/documentos/temporales proyecto/documentos/aprobados proyecto/imagenes proyecto/ingenieria
+  225  ls -la
+  226  mkdir tmp
+  227  cd tmp
+  228  cp /mnt/c/Users/Tardes/Desktop/compartida/modulo-i/ejercicios/linux/ficheros-ejercicio/* .
+  229  ls -l
+  230  cd ..
+  231  ls -R
+  232  mv tmp/Memoria.pdf proyecto/ingenieria/
+  233  mv tmp/cimiento_columna.png proyecto/ingenieria/
+  234  mv tmp/interior.png proyecto/ingenieria/
+  235  mv tmp/*.jpg proyecto/imagenes/
+  236  mv tmp/*.png proyecto/imagenes/
+  237  mv tmp/*.pdf proyecto/documentos/aprobados/
+  238  mv tmp/Informe*.* proyecto/documentos/aprobados/
+  239  mv tmp/* proyecto/documentos/temporales/
+  240  ls tmp/
+  241  rm -d tmp/
+  242  ls -R
+  243  git status
+  244  git add .
+  245  git commit -m"ej 2"
+  246  git status
+  247  git log
+  248  cd proyecto/documentos/temporales/
+  249  mv Plan_proyecto.txt Plan_proyecto_OK.txt
+  250  cp Plan_proyecto_OK.txt ../aprobados/
+  251  mv Especificaciones_tecnicas.txt ../../ingenieria/
+  252  cd ../../imagenes/
+  253  mkdir para_revision
+  254  cp *.jpg para_revision/
+  255  rm ../documentos/temporales/Plan_proyecto_OK.txt 
+  256  rm -R para_revision/
+  257  cd ..
+  258  ls -R
+  259  git add .
+  260  git commit -m "final"
+  261  git log
+  262  cd ..
+  263  ssh-keygen -t ed25519 -C "cursos.tic.plg@gmail.com"
+  264  cat .ssh/id_ed25519.pub 
+  265  git log
+  266  cd ejercicio_linux/
+  267  git log
+  268  git branch -m master main
+  269  git log
+  270  git config --global init.defaultBranch
+  271  git config --global init.defaultBranch main
+  272  git config --global init.defaultBranch
+  273  git remote add origin git@github.com:plgcursos/ejercicio-linux.git
+  274  git remote -v
+  275  git push -u origin main
+  276  sudo nano /etc/ssh/ssh_config
+  277* 
+  278  sudo nano /etc/ssh/ssh_config
+  279  git push -u origin main
+  280  sudo nano /etc/ssh/ssh_config
+  281  history
+  282  history > ../comandos-ejercicio.txt
