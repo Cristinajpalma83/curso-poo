@@ -1,0 +1,26 @@
+{
+    "[java]": {
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.inlineSuggest.enabled": false,
+        "editor.parameterHints.enabled": false,
+        "editor.wordBasedSuggestions": "off",
+        "editor.snippetSuggestions": "none",
+        "editor.tabCompletion": "off",
+        "editor.acceptSuggestionOnEnter": "off",
+        "editor.acceptSuggestionOnCommitCharacter": false,
+        "editor.hover.enabled": "off",
+        "editor.inlayHints.enabled": "off",
+        "editor.codeLens": false,
+        "editor.autoClosingBrackets": "never",
+        "editor.autoClosingQuotes": "never",
+        "editor.autoSurround": "never",
+        "editor.formatOnType": false,
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false
+    }
+}
