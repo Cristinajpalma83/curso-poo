@@ -1,0 +1,35 @@
+Crear contenedor nginx de la version latest con un volumen local
+
+docker run  (crea un contenedor a partir de una imagen)
+
+docker run
+    -d              (se ejecuta en segundo plano)
+    --name nombre_contenedor    (asigna el nombre)
+    -p 8080:80      (puerto_local:80  redirige el puerto 80 del contenedor al puerto_loca del anfitrion)
+    -v ~/html:/usr/share/nginx/html  
+        (crea un volumen local. Sincroniza la carpeta ~/html de mi equipo con la /usr... del contenedor)
+    nginx   (nombre de la imagen)
+
+
+docker image ls     (lista las imagenes locales)
+docker container ls  (lista los contenedores en ejecución) 
+docker ps       (igual que el anterior)
+docker image ls -a     (lista todos los contenedores)
+docker ps -a   (igual que el anterior)
+
+docker start    (levanta un contenedor) 
+docker stop     (detiene un contenedor)
+
+docker rm nombre_contenedor     (elimina un contenedor si está detenido)
+docker rm -f nombre_contenedor     (elimina un contenedor aunque esté en ejecución)
+
+docker exec     (ejecuta un comando en el contenedor)
+
+Ej: ejecutar una terminal en un contenedor
+docker exec -it nombre_contenedor /bin/bash     (it: terminal interactiva)
+
+docker image rm nombre_imagen   (elimina una imagen local)
+
+docker logs nombre_contenedor   (muestra logs de config. y carga de un contenedor en ejecución)
+
+docker inspect nombre_contenedor (muestra información de un contenedor)
