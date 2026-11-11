@@ -9,11 +9,12 @@ public class Ej15{
         n = tec.nextInt();
 
         System.out.print("Los divisores de " + n + " son:");
-        for (int i = 1; i <= n; i++){            
+        for (int i = 1; i <= n/2; i++){            
             if (n % i == 0){
                 divisor = i;
                 System.out.print(" " + divisor);
             }
         }
+        System.out.print(" " + n);
     }
 }

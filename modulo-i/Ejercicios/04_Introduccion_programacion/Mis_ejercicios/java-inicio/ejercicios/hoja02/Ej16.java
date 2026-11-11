@@ -11,11 +11,9 @@ public class Ej16{
 
         System.out.print("El número " + n + " ");
         for (int i = 1; i <= n; i++){            
-            if (n % i != 0){
-                primo = "No";
-            } else {
-                primo = "Si";
-            }              
+            if (i != 1 && i != n &&  n % i == 0) {
+                    primo = "No";    
+            }           
         }
         System.out.print(primo + " es primo");
     }
