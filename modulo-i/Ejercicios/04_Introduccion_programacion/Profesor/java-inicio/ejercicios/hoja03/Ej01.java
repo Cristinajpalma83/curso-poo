@@ -6,18 +6,21 @@ import java.util.Scanner;
 public class Ej01 {
     public static void main(String[] arg) {
         Scanner tec = new Scanner(System.in);
+        double nota, mayor, menor;
 
         System.out.print("Ingrese nota: ");
-        double nota = tec.nextDouble();
+        mayor = menor = nota = tec.nextDouble();
 
         while(nota >= 0) {
-            //proceso
-            //proceso
-            //proceso
-            //proceso
+            if (nota > mayor) mayor = nota;
+            if (nota < menor) menor = nota;
+
             System.out.print("Ingrese nota: ");
             nota = tec.nextDouble();
         }
-
+        if (mayor >= 0) {
+            System.out.println("Nota mayor: " + mayor);
+            System.out.println("Nota menor: " + menor);
+        }
     }
 }
