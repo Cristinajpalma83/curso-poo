@@ -8,10 +8,7 @@ public class Ej01{
         double nota, mayor = 0, menor = 0;
 
         System.out.print("Ingrese nota: ");
-        nota = tec.nextDouble();
-        if (nota > 0){
-            mayor = menor = nota;
-        }
+        mayor = menor = nota = tec.nextDouble();
 
         while (nota >= 0){
             
@@ -21,6 +18,8 @@ public class Ej01{
             System.out.print("Ingrese nota: ");
             nota = tec.nextDouble();
         }
-        System.out.println("La mayor nota del grupo es: " + mayor + " y la menor nota del grupo es: " + menor);
+        if (mayor >= 0){
+            System.out.println("La mayor nota del grupo es: " + mayor + " y la menor nota del grupo es: " + menor);
+        }
     }
 }
