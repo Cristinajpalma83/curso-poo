@@ -4,13 +4,14 @@ public class Ej04{
     public static void main (String[] arg){
         //Como ir obteniendo la unidad dividiendo por 10, para recuperar 1254 --> 4, 5, 2, 1
         Scanner tec = new Scanner(System.in);
-        int n;
+        int n, divisor = 10;
 
         System.out.print("Ingrese número de 4 cifras: ");
         n = tec.nextInt();
 
         for (int i = 1; i <= 4; i++){
-
+            System.out.println(n % divisor);
+            n = n/divisor;    
         }
     }
 }
