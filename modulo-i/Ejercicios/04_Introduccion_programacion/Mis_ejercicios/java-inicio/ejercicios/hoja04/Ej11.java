@@ -18,9 +18,12 @@ public class Ej11{
         if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
             if (dia > 0 && dia <= 30) {diaOk = true;}
         } else {
-            if (dia > 0 && dia <= 31) {diaOk = true;}
-        }
-        if (mes == 2 && dia > 0 && dia <= 28) {diaOk = true;}
+            if (mes == 2 && dia > 0 && dia <= 28) {
+                diaOk = true;
+            } else {
+                if (dia > 0 && dia <= 31) {diaOk = true;}
+            }
+        }        
 
         if (diaOk == false || mesOk == false || anyoOk == false) {
             System.out.println(dia + " " + mes + " " + anyo + " es una fecha incorrecta");

@@ -9,7 +9,7 @@ public class Ej05{
         System.out.print("Ingrese número: ");
         n = tec.nextInt();
 
-        while (n > 0) {
+        while (n != 0) {
             System.out.println(n % divisor);
             n = n/divisor;    
         }
