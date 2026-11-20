@@ -13,10 +13,10 @@ public class Ej02{
         //cual es mayor
         if ( a < b ) { 
             a = (a+b)/2; //suma devuelve el mayor
-            b = (a-b)/2; //resta devuelve el menor
+            b = (b-a)/2; //resta devuelve el menor
         } else {
             b = (a+b)/2; //suma devuelve el mayor
-            a = (a-b)/2; //resta devuelve el menor
+            a = (b-a)/2; //resta devuelve el menor
         }
         System.out.println("a = " + a + " b = " + b);
     }
