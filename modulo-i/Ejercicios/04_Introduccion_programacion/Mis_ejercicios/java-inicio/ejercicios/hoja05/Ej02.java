@@ -10,14 +10,9 @@ public class Ej02{
         System.out.print("Indique el valor de b: ");
         b = tec.nextInt();
 
-        //cual es mayor
-        if ( a < b ) { 
-            a = (a+b)/2; //suma devuelve el mayor
-            b = (b-a)/2; //resta devuelve el menor
-        } else {
-            b = (a+b)/2; //suma devuelve el mayor
-            a = (b-a)/2; //resta devuelve el menor
-        }
+        b+=a; //b = b + a
+        a-=b; //a = a -b
+
         System.out.println("a = " + a + " b = " + b);
     }
 }
