@@ -20,3 +20,6 @@
 
 
 --> Visual Studio Code: https://code.visualstudio.com/
+
+--> Draw io: https://portableapps.com/apps/graphics_pictures/drawio-portable
+	Programa para hacer diagramas. Usado para mapa conceptual de una BBDD
